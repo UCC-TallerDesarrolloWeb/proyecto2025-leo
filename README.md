@@ -3,7 +3,7 @@ Estructura de Proyecto Taller de Desarrollo Web - 2025
 
 # título del proyecto: Tienda de videojuegos
 ## autores: Agustin Leo
-## link de gh-pages 
+## link de gh-pages https://ucc-tallerdesarrolloweb.github.io/proyecto2025-leo/
 ### contenido de la página: variedad de juegos con opcion de guardar en un carrito de compras, y un apartado de contacto 
 ### listado de tecnologías usadas: html, css, javascript
 
@@ -33,10 +33,10 @@ Tener en cuenta:
 
 ### Sobre el Repositorio
 - [ X] El proyecto debe estar subido al repositorio adecuado "Proyecto2025-ApellidoAlumno1-ApellidoAlumno2"
-- [ ] Modificar el Readme.MD y colocar información del proyecto/página (mínimamente: título del proyecto, autores con nombre y apellido, link de gh-pages, contenido de la página,  listado de tecnologías usadas, etc)
+- [x] Modificar el Readme.MD y colocar información del proyecto/página (mínimamente: título del proyecto, autores con nombre y apellido, link de gh-pages, contenido de la página,  listado de tecnologías usadas, etc)
 - [x] En el **readme.md** se debe emplear Markdown y aplicar negrita, titulo de orden 1, 2 y 3, link, items, tabla, index a cada sección
-- [ ] El código debe estar pusheado en el repositorio (emplear gh-pages ó publicar la página desde el main), y no debe haber diferencias entre **main** y **gh-pages** (verificar de realizar el Merge).
-- [ ] Publicar la Web empleando GitHubPages
+- [x] El código debe estar pusheado en el repositorio (emplear gh-pages ó publicar la página desde el main), y no debe haber diferencias entre **main** y **gh-pages** (verificar de realizar el Merge).
+- [x] Publicar la Web empleando GitHubPages
 - [x] El repositorio no debe contener archivos innecesarios (no debe contener .idea o .vsc ni .DS_Store, en todo caso emplear **.gitignore**)
 
 ### Sobre el Proyecto General
