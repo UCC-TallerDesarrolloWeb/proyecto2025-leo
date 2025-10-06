@@ -1,174 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Agustin Leo">
+  <meta name="description" content="Sitio web de ventas de videojuegos">
+  <meta name="keywords" content="HTML, CSS, JS">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogo de Juegos</title>
     <link rel="stylesheet" href="catalogo.css">
 </head>
 <header>
     <div class="logo"><img src="imagenes/logo1.png" alt="logo"></div>
     <nav class="menu">
-      <a href="index.html">Inicio</a>
-      <a href="catalogo.html">Catálogo</a>
-      <a href="contacto.html">Contacto</a>
+        <a href="index.html">Inicio</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="contacto.html">Contacto</a>
     </nav>
     <div class="carrito"><img src="imagenes/carrito.jpg" alt="carrito"></div>
 </header>
+
 <body>
 
     <div class="contenedor">
-        <aside class="buscador">
-    
-        <fieldset>
-            <legend>Busqueda</legend>
-            <label for="Busqueda">Buscar</label>
-            <input 
-            type="text"
-            id="Busqueda"
-            name="buscador"
-            placeholder="Nombre del juego.."
-            />
-    
-        </fieldset>
-        <fieldset>
 
-        <legend>Precios</legend>
-        <p>
-            <label for="precio-minimo">minimo</label>
-            <input type="number" id="precio-minimo" name="precio-minimo" value="0" min="0">
-        </p>
-        <p>
-            <label for="precio-maximo">Maximo</label>
-            <input type="number" id="precio-maximo" name="precio-maximo" value="100">
-        </p>
-        </fieldset>
-        <fieldset>
-            <legend>Categoria</legend>
-            <p>
-                <input type="checkbox" id="accion" name="accion">
-                <label for="accion">Accion</label>
-            </p>
-            <p>
-                <input type="checkbox" id="deportes" name="deportes">
-                <label for="deportes">Deportes</label>
-            </p>
-            <p>
-                <input type="checkbox" id="terror" name="terror">
-                <label for="terror">Terror</label>
-            </p>
-        </fieldset>
 
-        </aside>
+        <main class="products">
 
-        <main class="products"> 
+            <div class="product-card" data-nombre="Battlefield" data-precio="39.99" data-categoria="Accion">
 
-            <div class="product-card">
-            <img src="imagenes/battlefield.jpg" alt="Battlefield">  
-            <h3>Battlefield</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/battlefield.jpg" alt="Battlefield">
+                <h3>Battlefield</h3>
+                <h3 class="precio">$39.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
+
             </div>
 
             <div class="product-card">
-            <img src="imagenes/the-last-of-us.jpg" alt="the-last-of-us">  
-            <h3>the last of us</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/the-last-of-us.jpg" alt="the-last-of-us">
+                <h3>the last of us</h3>
+                <h3 class="precio">$39.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/terraria.jpg" alt="terraria">  
-            <h3>terraria</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/terraria.jpg" alt="terraria">
+                <h3>terraria</h3>
+                <h3 class="precio">$9.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/sniper.jpg" alt="sniper">  
-            <h3>sniper elite 5</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/sniper.jpg" alt="sniper">
+                <h3>sniper elite 5</h3>
+                <h3 class="precio">$29.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/silent-hill.png" alt="silent-hill">  
-            <h3>silent-hill f</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/silent-hill.png" alt="silent-hill">
+                <h3>silent-hill f</h3>
+                <h3 class="precio">$39.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/resident-evil.jpg" alt="resident-evil">  
-            <h3>resident evil 4</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/resident-evil.jpg" alt="resident-evil">
+                <h3>resident evil 4</h3>
+                <h3 class="precio">$19.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/ratchet-and-clank}.jpg" alt="ratchet-and-clank">  
-            <h3>ratchet and clank</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/ratchet-and-clank}.jpg" alt="ratchet-and-clank">
+                <h3>ratchet and clank</h3>
+                <h3 class="precio">$9.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/metro.jpg" alt="metro">  
-            <h3>metro exodus</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/metro.jpg" alt="metro">
+                <h3>metro exodus</h3>
+                <h3 class="precio">$14.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/hollow-knight.jpg" alt="hollow-knight">  
-            <h3>hollow knight</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/hollow-knight.jpg" alt="hollow-knight">
+                <h3>hollow knight</h3>
+                <h3 class="precio">$34.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/hogwarts.jpg" alt="hogwarts">  
-            <h3>hogwarts legacy</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/hogwarts.jpg" alt="hogwarts">
+                <h3>hogwarts legacy</h3>
+                <h3 class="precio">$39.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/gta.jpg" alt="gta">  
-            <h3>gta 5</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/gta.jpg" alt="gta">
+                <h3>gta 5</h3>
+                <h3 class="precio">$13.50</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/ghost-of-tsushima.jpg" alt="ghost-of-tsushima">  
-            <h3>ghost-of-tsushima</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/ghost-of-tsushima.jpg" alt="ghost-of-tsushima">
+                <h3>ghost-of-tsushima</h3>
+                <h3 class="precio">$39.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/forza-horizon.jpg" alt="forza-horizon">  
-            <h3>forza horizon 5</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/forza-horizon.jpg" alt="forza-horizon">
+                <h3>forza horizon 5</h3>
+                <h3 class="precio">$59.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/fc26.jpg" alt="fc26">  
-            <h3>fc26</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/fc26.jpg" alt="fc26">
+                <h3>fc26</h3>
+                <h3 class="precio">$69.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/dragon-ball.jpg" alt="dragon-ball">  
-            <h3>dragon ball </h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/dragon-ball.jpg" alt="dragon-ball">
+                <h3>dragon ball </h3>
+                <h3 class="precio">$39.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/doom.jpg" alt="doom">  
-            <h3>doom eternal</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/doom.jpg" alt="doom">
+                <h3>doom eternal</h3>
+                <h3 class="precio">$29.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/cyberpunk.jpg" alt="cyberpunk">  
-            <h3>cyberpunk 2077</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/cyberpunk.jpg" alt="cyberpunk">
+                <h3>cyberpunk 2077</h3>
+                <h3 class="precio">$19.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
             <div class="product-card">
-            <img src="imagenes/spiderman.jpg" alt="spiderman">  
-            <h3>spiderman 2</h3>
-            <button type="button" onclick="añadircarrito()">Añadir a carrito</button>  
+                <img src="imagenes/spiderman.jpg" alt="spiderman">
+                <h3>spiderman 2</h3>
+                <h3 class="precio">$49.99</h3>
+                <button class="agregar-carrito" type="button" onclick="añadircarrito()">Añadir a carrito</button>
             </div>
 
 
@@ -177,19 +161,19 @@
         </main>
 
 
-    </div> 
+    </div>
 
 
 
-
-
-
-
-
-
-
+    <div id="carrito-contenedor" class="carrito-oculto">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p id="total">Total: $0</p>
+        <button id="vaciar-carrito">Vaciar Carrito</button>
+    </div>
 
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
