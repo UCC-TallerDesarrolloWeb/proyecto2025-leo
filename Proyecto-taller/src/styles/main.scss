@@ -1,0 +1,54 @@
+// Importa los archivos parciales de estilos
+@import './index.scss';
+@import './catalogo.scss';
+@import './contacto.scss';
+@import "./header.scss";
+
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.cart-container {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  width: 250px;
+  padding: 15px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+  font-family: Arial, sans-serif;
+
+  h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .clear-btn {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,62 @@
+// Variables
+.home-page {
+  text-align: center;
+  background: rgb(138, 138, 138);
+
+  h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+
+  .catalogo {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 40px;
+
+    .card {
+      width: 250px;
+      background: #fff;
+      border-radius: 10px;
+      padding: 10px;
+
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      button {
+        margin-top: 10px;
+        padding: 10px;
+        background: #222;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  .login-box {
+    margin-top: 50px;
+    padding: 20px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      margin: auto;
+
+      input {
+        padding: 10px;
+        margin: 5px 0;
+      }
+
+      button {
+        padding: 12px;
+        font-weight: bold;
+      }
+    }
+  }
+}

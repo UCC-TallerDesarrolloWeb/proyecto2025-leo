@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "Battlefield",
+    "precio": 39.99,
+    "imagen": "battlefield.jpg"
+  },
+  {
+    "nombre": "The Last of Us",
+    "precio": 39.99,
+    "imagen": "the-last-of-us.jpg"
+  },
+  {
+    "nombre": "Terraria",
+    "precio": 9.99,
+    "imagen": "terraria.jpg"
+  },
+  {
+    "nombre": "Silent Hill F",
+    "precio": 39.99,
+    "imagen": "silent-hill.png"
+  },
+
+  { "nombre": "Sniper Elite 5",
+   "precio": 29.99, 
+   "imagen": "/imagenes/sniper.jpg" },
+
+    { "nombre": "Silent Hill F",
+     "precio": 39.99,
+      "imagen": "/imagenes/silent-hill.png" },
+
+    { "nombre": "Resident Evil 4", 
+    "precio": 19.99,
+     "imagen": "/imagenes/resident-evil.jpg" },
+
+    { "nombre": "Ratchet and Clank", 
+    "precio": 9.99,
+     "imagen": "/imagenes/ratchet-and-clank}.jpg" },
+
+    { "nombre": "Metro Exodus",
+     "precio": 14.99,
+      "imagen": "/imagenes/metro.jpg" },
+
+    { "nombre": "Hollow Knight", 
+    "precio": 34.99,
+     "imagen": "/imagenes/hollow-knight.jpg" },
+
+    { "nombre": "Hogwarts Legacy",
+     "precio": 39.99,
+      "imagen": "/imagenes/hogwarts.jpg" },
+
+    { "nombre": "GTA 5",
+     "precio": 13.5,
+      "imagen": "/imagenes/gta.jpg" },
+
+    { "nombre": "Ghost of Tsushima", 
+    "precio": 39.99,
+     "imagen": "/imagenes/ghost-of-tsushima.jpg" },
+
+    { "nombre": "Forza Horizon 5",
+    "  precio": 59.99,
+     "imagen": "/imagenes/forza-horizon.jpg" },
+
+    { "nombre": "FC 26",
+     "precio": 69.99,
+     "imagen": "/imagenes/fc26.jpg" },
+
+    { "nombre": "Dragon Ball",
+     "precio": 39.99, 
+     "imagen": "/imagenes/dragon-ball.jpg" },
+
+    { "nombre": "Doom Eternal", 
+    "precio": 29.99,
+     "imagen": "/imagenes/doom.jpg" },
+
+    { "nombre": "Cyberpunk 2077",
+     "precio": 19.99,
+      "imagen": "/imagenes/cyberpunk.jpg" },
+    { "nombre": "Spiderman 2", 
+    "precio": 49.99,
+     "imagen": "/imagenes/spiderman.jpg" }
+
+]
